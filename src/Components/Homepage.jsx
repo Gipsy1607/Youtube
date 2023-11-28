@@ -1,9 +1,12 @@
-import React from "react";
+import Navbar from "./Navbar";
+import './../App.css';
+import Menu from './Menu'
 
 function Homepage(){
     return(
-        <div>
-            <h1>Welcome to the Homepage!</h1>
+        <div className="Home-app">
+            <Navbar></Navbar>
+            <Menu></Menu>
         </div>
     )
 }

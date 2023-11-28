@@ -1,14 +1,14 @@
 import './App.css';
 import React from 'react';
-import { Router, Route } from 'react-router-dom'
-import Homepage from './Components/Homepage';
+import { Routes, Route } from 'react-router-dom'
+import Homepage from './Components/Homepage.jsx';
 
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Routes>
       <Route path="/" element={<Homepage/>} />
-    </Router>
+    </Routes>
     </div>
   );
 }
