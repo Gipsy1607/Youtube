@@ -1,0 +1,38 @@
+.Login-box{
+    border: 1px solid darkgray;
+    height: 470px;
+    width: 370px;
+    align-self: center;
+    padding: 48px 40px 36px 40px;
+}
+.sign-in-box{
+    border: 1px solid red;
+    height: 416px;
+    width: 368px;
+    text-align: center;
+}
+#google-logo{
+    border: 1px solid black;
+    height: 90px;
+    width: 120px;
+}
+.email-area{
+    display: flex;
+    flex-direction: column;
+}
+.email-area>div>input{
+    width: 410px;
+    height: 28px;
+    text-align: left;
+    font-size: 20px;
+}
+.email-area>button{
+    height: fit-content;
+    width: fit-content;
+    text-align: left;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: blue;
+    cursor: pointer;
+}

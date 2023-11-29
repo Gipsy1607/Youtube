@@ -1,14 +1,14 @@
 import React from 'react';
 import './Menu.css';
+import Homepage from './Homepage';
 
 function Menu() {
   return (
     <div className='menu'>
       <div className="side-bar">
         <div>
-            <i class="fa-solid fa-house fa-lg">
-                <p>Home</p>
-            </i>
+            <i class="fa-solid fa-house fa-lg"></i>
+            <p>Home</p>
         </div>
         <div>
             <p>Shorts</p>
@@ -22,12 +22,16 @@ function Menu() {
       </div>
       <div className="choice-bar">
         <ul id='items'>
-            <button><li></li></button>
-            <button><li></li></button>
-            <button><li></li></button>
-            <button><li></li></button>
-            <button><li></li></button>
-            <button><li></li></button>
+            <button onClick={Homepage}>All</button>
+            <button>Auditions</button>
+            <button>Music</button>
+            <button>Podcasts</button>
+            <button>History</button>
+            <button>Merell Twins</button>
+            <button>Ghosts</button>
+            <button>Film Criticisms</button>
+            <button>Chill-out Music</button>
+            <button>Civil Service Exam</button>
         </ul>
       </div>
     </div>
